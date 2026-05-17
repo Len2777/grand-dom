@@ -7,10 +7,13 @@ import {
   type SupportedLocale,
 } from "@/lib/translations";
 import { generatePageMetadata } from "@/lib/metadata";
+import { getFeaturedProperties } from "@/lib/properties";
 
 export async function generateStaticParams() {
   return SUPPORTED_LOCALES.map((lng) => ({ lng }));
 }
+
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,
@@ -73,7 +76,10 @@ export default async function LocalePage({
     notFound();
   }
 
-  const msgs = await getMessages(lng);
+  const [msgs, featuredProperties] = await Promise.all([
+    getMessages(lng),
+    getFeaturedProperties(),
+  ]);
 
   return (
     <>
@@ -81,7 +87,10 @@ export default async function LocalePage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
       />
-      <GrandDomVisitCard messages={msgs} />
+      <GrandDomVisitCard
+          messages={msgs}
+          featuredProperties={featuredProperties}
+      />
     </>
   );
 }

@@ -1,0 +1,60 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+enum PropertySource {
+  OTODOM
+  MANUAL
+}
+
+enum PropertyTransactionType {
+  SALE
+  RENT
+}
+
+enum PropertyStatus {
+  ACTIVE
+  HIDDEN
+  SOLD
+  RENTED
+}
+
+model Property {
+  id              String                  @id @default(cuid())
+  source          PropertySource          @default(OTODOM)
+  sourceUrl       String                  @unique @db.VarChar(768)
+
+  title           String                  @db.VarChar(255)
+  description     String?                 @db.Text
+
+  price           Int?
+  currency        String                  @default("PLN") @db.VarChar(10)
+
+  location        String?                 @db.VarChar(255)
+  district        String?                 @db.VarChar(120)
+
+  areaM2          Decimal?                @db.Decimal(8, 2)
+  rooms           Int?
+  floor           Int?
+
+  imageUrl        String?                 @db.VarChar(2048)
+
+  transactionType PropertyTransactionType
+  status          PropertyStatus          @default(ACTIVE)
+
+  isFeatured      Boolean                 @default(false)
+  sortOrder       Int                     @default(0)
+
+  createdAt       DateTime                @default(now())
+  updatedAt       DateTime                @updatedAt
+
+  @@index([status])
+  @@index([isFeatured])
+  @@index([transactionType])
+  @@index([district])
+}

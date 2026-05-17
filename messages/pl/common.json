@@ -133,8 +133,8 @@
     }
   ],
   "propertyShowcase": {
-    "label": "Nieruchomości premium",
-    "heading": "Eleganckie wnętrza,",
+    "label": "Aktualne oferty",
+    "heading": "Dostępne mieszkania",
     "subheading": "wyjątkowa jakość",
     "featureStats": [
       {
@@ -146,7 +146,7 @@
         "label": "Dzielnic Warszawy"
       }
     ],
-    "description": "Nasze oferty to mieszkania w sprawdzonych lokalizacjach – z dobrym układem, jasnym widokiem i sąsiedztwem, w którym chce się zostać. Każde oglądamy osobiście, zanim trafi do oferty."
+    "description": "Zobacz aktualne propozycje mieszkań na sprzedaż i wynajem. Wybierz ofertę, aby przejść do pełnego ogłoszenia na Otodom i poznać wszystkie szczegóły"
   },
   "spanishInvestment": {
     "foreignLabel": "Inwestycje zagraniczne",
