@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import React, { useState } from "react";
 
 const inputStyle: React.CSSProperties = {
@@ -91,6 +91,7 @@ export default function ContactSection({ get }: any) {
     { value: "cleaning", label: get(["form", "service_cleaning"], "🧹 Sprzątanie mieszkania") },
     { value: "repairs",  label: get(["form", "service_repairs"],  "🔧 Drobne naprawy") },
     { value: "painting", label: get(["form", "service_painting"], "🎨 Malowanie / odświeżanie") },
+    { value: "valuation", label: get(["form", "service_valuation"], "📋 Bezpłatna wycena mieszkania") },
   ];
 
   const typeOptions = [

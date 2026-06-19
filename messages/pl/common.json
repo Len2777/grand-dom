@@ -17,7 +17,7 @@
     "line1": "Znajdź",
     "line2": "swoje",
     "line3": "miejsce",
-    "text": "Świeże podejście do rynku nieruchomości. Specjalizujemy się w sprzedaży, kupnie i wynajmie nieruchomości w Warszawie i województwie mazowieckim. Dodatkowo oferujemy inwestycje w słonecznej Hiszpanii."
+    "text": "Świeże podejście do rynku nieruchomości. Specjalizujemy się w sprzedaży, kupnie i wynajmie nieruchomości w Warszawie i województwie mazowieckim. Dodatkowo oferujemy bezpłatną wycenę mieszkania."
   },
   "specialization": {
     "title": "Nasza Specjalizacja",
@@ -260,6 +260,7 @@
     "service_cleaning": "🧹 Sprzątanie mieszkania",
     "service_repairs": "🔧 Drobne naprawy",
     "service_painting": "🎨 Malowanie / odświeżanie",
+    "service_valuation": "📋 Bezpłatna wycena mieszkania",
     "typeLabel": "Typ nieruchomości",
     "typePlaceholder": "Wybierz typ nieruchomości",
     "type_apartment": "Mieszkanie",

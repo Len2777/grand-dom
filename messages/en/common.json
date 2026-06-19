@@ -17,7 +17,7 @@
     "line1": "Find",
     "line2": "your",
     "line3": "place",
-    "text": "A fresh approach to the real estate market. We specialize in sales, purchases and rentals in Warsaw and the Masovian region. We also offer investments in sunny Spain."
+    "text": "A fresh approach to the real estate market. We specialize in sales, purchases and rentals in Warsaw and the Masovian region. We also offer a free apartment valuation."
   },
   "specialization": {
     "title": "Our Specialization",
@@ -252,6 +252,7 @@
     "service_cleaning": "🧹 Apartment cleaning",
     "service_repairs": "🔧 Minor repairs",
     "service_painting": "🎨 Painting / refresh",
+    "service_valuation": "📋 Free apartment valuation",
     "typeLabel": "Property type",
     "typePlaceholder": "Select property type",
     "type_apartment": "Apartment",
