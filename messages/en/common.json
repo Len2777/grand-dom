@@ -17,7 +17,7 @@
     "line1": "Find",
     "line2": "your",
     "line3": "place",
-    "text": "A fresh approach to the real estate market. We specialize in sales, purchases and rentals in Warsaw and the Masovian region. We also offer a free apartment valuation."
+    "text": "A fresh approach to the real estate market. We specialize in the sale and purchase of apartments in Warsaw and the Masovian region — and we'll valuate your apartment completely free of charge."
   },
   "specialization": {
     "title": "Our Specialization",
@@ -225,6 +225,7 @@
   "whyChoose": {
     "title": "Why GRAND DOM",
     "items": [
+      "Free apartment valuation",
       "We reply within 24 hours",
       "First consultation free of charge",
       "Individual approach to every client",

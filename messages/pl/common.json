@@ -17,7 +17,7 @@
     "line1": "Znajdź",
     "line2": "swoje",
     "line3": "miejsce",
-    "text": "Świeże podejście do rynku nieruchomości. Specjalizujemy się w sprzedaży, kupnie i wynajmie nieruchomości w Warszawie i województwie mazowieckim. Dodatkowo oferujemy bezpłatną wycenę mieszkania."
+    "text": "Świeże podejście do rynku nieruchomości. Specjalizujemy się w sprzedaży i kupnie mieszkań w Warszawie i województwie mazowieckim — a wycenę Twojego mieszkania wykonamy całkowicie bezpłatnie."
   },
   "specialization": {
     "title": "Nasza Specjalizacja",
@@ -233,6 +233,7 @@
   "whyChoose": {
     "title": "Dlaczego GRAND DOM",
     "items": [
+      "Bezpłatna wycena mieszkania",
       "Odpowiadamy w ciągu 24 godzin",
       "Pierwsza konsultacja bez opłat",
       "Indywidualne podejście do każdego klienta",

@@ -86,11 +86,6 @@ export default function ContactSection({ get }: any) {
 
   const serviceOptions = [
     { value: "buying",   label: get(["form", "service_buying"],   "🛒 Kupno") },
-    { value: "selling",  label: get(["form", "service_selling"],  "💰 Sprzedaż") },
-    { value: "renting",  label: get(["form", "service_renting"],  "🏠 Wynajem") },
-    { value: "cleaning", label: get(["form", "service_cleaning"], "🧹 Sprzątanie mieszkania") },
-    { value: "repairs",  label: get(["form", "service_repairs"],  "🔧 Drobne naprawy") },
-    { value: "painting", label: get(["form", "service_painting"], "🎨 Malowanie / odświeżanie") },
     { value: "valuation", label: get(["form", "service_valuation"], "📋 Bezpłatna wycena mieszkania") },
   ];
 
