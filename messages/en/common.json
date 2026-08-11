@@ -140,6 +140,15 @@
     ],
     "description": "Our listings are apartments in verified locations – with a good layout, bright view and a neighbourhood you'll want to stay in. We view each one in person before it goes on the market."
   },
+  "featuredOffer": {
+    "label": "For sale",
+    "heading": "Apartment for sale",
+    "subheading": "in Warsaw",
+    "priceLabel": "Price",
+    "description": "A unique apartment in an attractive location. Click to see the full listing, all photos and details.",
+    "cta": "View full listing",
+    "imageAlt": "Apartment for sale in Marki"
+  },
   "spanishInvestment": {
     "foreignLabel": "Foreign investments",
     "heading1": "Spain —",

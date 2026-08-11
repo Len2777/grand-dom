@@ -253,6 +253,17 @@
     padding: 48px 28px !important;
   }
 
+  /* Featured offer: side-by-side → stack */
+  .gd-offer-card {
+    grid-template-columns: 1fr !important;
+  }
+  .gd-offer-img {
+    min-height: 260px !important;
+  }
+  .gd-offer-body {
+    padding: 36px 24px !important;
+  }
+
   /* Spain: 2-col → 1-col */
   .gd-spain-grid {
     grid-template-columns: 1fr !important;
