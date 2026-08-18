@@ -34,7 +34,7 @@ const localBusinessSchema = {
   logo: "https://granddom.com/logo.png",
   image: "https://granddom.com/photo_2025-10-09_22-28-44.jpg",
   description:
-    "Real estate agency in Warsaw specializing in apartment sales, purchases and rentals in Warsaw and Masovia. Investments in Spain.",
+    "Real estate agency in Warsaw specializing in apartment sales, purchases and rentals in Warsaw and Masovia. Investments in Thailand and Northern Cyprus.",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Warsaw",
@@ -45,7 +45,8 @@ const localBusinessSchema = {
   areaServed: [
     { "@type": "City", name: "Warsaw" },
     { "@type": "State", name: "Masovian Voivodeship" },
-    { "@type": "Country", name: "Spain" },
+    { "@type": "Country", name: "Thailand" },
+    { "@type": "Country", name: "Northern Cyprus" },
   ],
   sameAs: ["https://www.instagram.com/mieszkam.wa_wa"],
   openingHoursSpecification: {

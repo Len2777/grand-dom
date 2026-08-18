@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     default: "GRAND DOM — Real Estate Agency Warsaw",
   },
   description:
-    "GRAND DOM — real estate agency in Warsaw. We specialize in apartment sales, purchases and long-term rentals in Warsaw and Masovia.",
+    "GRAND DOM — real estate agency in Warsaw. We specialize in apartment sales, purchases and long-term rentals in Warsaw and Masovia. Investments in Thailand and Northern Cyprus.",
   robots: {
     index: true,
     follow: true,
