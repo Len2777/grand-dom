@@ -155,9 +155,18 @@ export default function RealEstateServicesSection({
                 </p>
 
                 {/* Tags */}
-                <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+                <ul
+                  style={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    gap: 8,
+                    listStyle: "none",
+                    margin: 0,
+                    padding: 0,
+                  }}
+                >
                   {(service.features ?? []).map((tag: string, ti: number) => (
-                    <span
+                    <li
                       key={ti}
                       style={{
                         fontSize: 11,
@@ -175,9 +184,9 @@ export default function RealEstateServicesSection({
                       }}
                     >
                       {tag}
-                    </span>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
             );
           })}

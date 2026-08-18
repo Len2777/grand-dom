@@ -193,16 +193,18 @@ export default function FeaturedOfferSection({ get }: any) {
             />
 
             {/* Parametry */}
-            <div
+            <ul
               style={{
                 display: "flex",
                 flexWrap: "wrap",
                 gap: "10px 12px",
-                marginBottom: 28,
+                listStyle: "none",
+                margin: "0 0 28px",
+                padding: 0,
               }}
             >
               {specs.map((s, i) => (
-                <span
+                <li
                   key={i}
                   style={{
                     fontFamily: "var(--font-dm-sans), sans-serif",
@@ -215,9 +217,9 @@ export default function FeaturedOfferSection({ get }: any) {
                   }}
                 >
                   {s}
-                </span>
+                </li>
               ))}
-            </div>
+            </ul>
 
             <p
               style={{

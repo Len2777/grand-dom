@@ -32,7 +32,7 @@ export async function generatePageMetadata(
 
   return {
     metadataBase: new URL(BASE_URL),
-    title,
+    title: { absolute: title },
     description,
     ...(keywords && { keywords }),
     applicationName: "GRAND DOM",
