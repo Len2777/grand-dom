@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "GRAND DOM — Biuro Nieruchomości Warszawa",
-    "description": "Biuro nieruchomości w Warszawie: sprzedaż, kupno i wynajem mieszkań w Warszawie i na Mazowszu. Bezpłatna wycena.",
+    "description": "Biuro nieruchomości Warszawa — profesjonalne pośrednictwo w obrocie nieruchomościami: Warszawa i okolice, Tajlandia i Cypr Północny. Sprzedaż, kupno i wynajem. Bezpłatna wycena.",
     "keywords": "nieruchomości Warszawa, mieszkania na sprzedaż Warszawa, biuro nieruchomości Warszawa, kupno mieszkania Warszawa, wynajem mieszkań Warszawa, inwestycje Tajlandia, nieruchomości Cypr Północny, inwestycje Cypr Północny, domy Warszawa, działki mazowieckie"
   },
   "brand": {
@@ -17,7 +17,7 @@
     "line1": "Znajdź",
     "line2": "swoje",
     "line3": "miejsce",
-    "text": "Świeże podejście do rynku nieruchomości. Specjalizujemy się w sprzedaży i kupnie mieszkań w Warszawie i województwie mazowieckim — a wycenę Twojego mieszkania wykonamy całkowicie bezpłatnie."
+    "text": "Biuro nieruchomości i profesjonalne pośrednictwo w obrocie nieruchomościami — Warszawa i okolice, Tajlandia i Cypr Północny. Kompleksowe wsparcie na każdym etapie transakcji, a wycenę Twojego mieszkania wykonamy całkowicie bezpłatnie."
   },
   "specialization": {
     "title": "Nasza Specjalizacja",
@@ -77,14 +77,14 @@
     "heroCta2": "Porozmawiajmy"
   },
   "realEstateServicesTitle": "Nasze usługi",
-  "realEstateServicesSubtitle": "Kompleksowe rozwiązania dopasowane do Twoich potrzeb na rynku nieruchomości w Warszawie.",
+  "realEstateServicesSubtitle": "Kompleksowe rozwiązania dopasowane do Twoich potrzeb — w Warszawie i na rynkach zagranicznych.",
   "realEstateServicesLabel": "Co robimy",
-  "realEstateServicesDescription": "Mały zespół, który zna Warszawę dzielnica po dzielnicy. Prowadzimy Cię od pierwszej rozmowy aż do odebrania kluczy.",
+  "realEstateServicesDescription": "Szukasz zaufanego partnera w sprzedaży, wynajmie lub zakupie nieruchomości? Oferujemy kompleksowe wsparcie na każdym etapie transakcji — zarówno w Warszawie i okolicach, jak i na atrakcyjnych rynkach międzynarodowych. Pomagamy inwestować bezpiecznie i z zyskiem.",
   "realEstateServices": [
     {
-      "title": "Sprzedaż Mieszkań w Warszawie",
-      "sub": "Warszawa i Mazowsze",
-      "description": "Kompleksowa obsługa sprzedaży mieszkań, domów i lokali komercyjnych w Warszawie i województwie mazowieckim.",
+      "title": "Sprzedaż Mieszkań w Warszawie i okolicach",
+      "sub": "Warszawa i okolice",
+      "description": "Kompleksowa obsługa sprzedaży mieszkań, domów i lokali komercyjnych w Warszawie i okolicach. Dojeżdżamy do klientów w każdej dzielnicy (Bemowo, Śródmieście, Białołęka i inne).",
       "features": [
         "Wycena nieruchomości",
         "Marketing i promocja",
@@ -112,13 +112,13 @@
       ]
     },
     {
-      "title": "Doradztwo Prawne",
-      "sub": "Bezpieczna transakcja",
-      "description": "Kompleksowe wsparcie prawne przy transakcjach nieruchomościowych.",
+      "title": "Nieruchomości zagraniczne",
+      "sub": "Tajlandia i Cypr Północny",
+      "description": "Inwestycje na atrakcyjnych rynkach międzynarodowych — bezpiecznie i z zyskiem, z pełnym wsparciem na każdym etapie transakcji.",
       "features": [
-        "Sprawdzenie dokumentów",
-        "Obsługa notarialna",
-        "Bezpieczeństwo transakcji"
+        "Tajlandia – luksusowe apartamenty i wille",
+        "Cypr Północny – inwestycje nadmorskie",
+        "Duży potencjał wzrostu"
       ]
     },
     {

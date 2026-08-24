@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "GRAND DOM — Real Estate Agency Warsaw",
-    "description": "Real estate agency in Warsaw: apartment sales, purchases and long-term rentals across Warsaw and Masovia. Free valuation.",
+    "description": "Real estate agency in Warsaw — professional property brokerage: Warsaw and surroundings, Thailand and Northern Cyprus. Sales, purchases and rentals. Free valuation.",
     "keywords": "real estate Warsaw, apartments for sale Warsaw, property Warsaw, real estate agency Poland, buy apartment Warsaw, rent Warsaw, investment Thailand, property Northern Cyprus, investment Northern Cyprus, nieruchomości Warszawa"
   },
   "brand": {
@@ -17,7 +17,7 @@
     "line1": "Find",
     "line2": "your",
     "line3": "place",
-    "text": "A fresh approach to the real estate market. We specialize in the sale and purchase of apartments in Warsaw and the Masovian region — and we'll valuate your apartment completely free of charge."
+    "text": "A real estate agency offering professional property brokerage — Warsaw and surroundings, Thailand and Northern Cyprus. Comprehensive support at every stage of the transaction, and we'll valuate your apartment completely free of charge."
   },
   "specialization": {
     "title": "Our Specialization",
@@ -69,14 +69,14 @@
     "heroCta2": "Get in touch"
   },
   "realEstateServicesTitle": "Our Services",
-  "realEstateServicesSubtitle": "Comprehensive solutions tailored to your needs in the Warsaw real estate market.",
+  "realEstateServicesSubtitle": "Comprehensive solutions tailored to your needs — in Warsaw and on international markets.",
   "realEstateServicesLabel": "What we do",
-  "realEstateServicesDescription": "A small team that knows Warsaw district by district. We guide you from the first conversation to receiving the keys.",
+  "realEstateServicesDescription": "Looking for a trusted partner in selling, renting or buying property? We offer comprehensive support at every stage of the transaction — both in Warsaw and its surroundings and on attractive international markets. We help you invest safely and profitably.",
   "realEstateServices": [
     {
-      "title": "Apartment Sales in Warsaw",
-      "sub": "Warsaw & Masovia",
-      "description": "Comprehensive service for selling apartments, houses and commercial spaces in Warsaw and the Masovian region.",
+      "title": "Apartment Sales in Warsaw and Surroundings",
+      "sub": "Warsaw & surroundings",
+      "description": "Comprehensive service for selling apartments, houses and commercial spaces in Warsaw and its surroundings. We travel to clients in every district (Bemowo, Śródmieście, Białołęka and others).",
       "features": [
         "Property valuation",
         "Marketing and promotion",
@@ -104,13 +104,13 @@
       ]
     },
     {
-      "title": "Legal Advisory",
-      "sub": "Safe transaction",
-      "description": "Comprehensive legal support for real estate transactions.",
+      "title": "International Properties",
+      "sub": "Thailand & Northern Cyprus",
+      "description": "Investments on attractive international markets — safely and profitably, with full support at every stage of the transaction.",
       "features": [
-        "Document verification",
-        "Notarial services",
-        "Transaction security"
+        "Thailand – luxury apartments and villas",
+        "Northern Cyprus – seaside investments",
+        "High growth potential"
       ]
     },
     {
