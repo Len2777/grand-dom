@@ -5,9 +5,11 @@ import { useI18nSwitcher } from "@/hooks/useI18nSwitcher";
 
 import Header from "../Header";
 import HeroSection from "../HeroSection";
-import StatsBar from "../StatsBar";
+import QuoteSection from "../QuoteSection";
 import RealEstateServicesSection from "../RealEstateServicesSection";
-import PropertyShowcaseSection from "../PropertyShowcaseSection";
+import AudienceSection from "../AudienceSection";
+import ProcessSection from "../ProcessSection";
+import AbroadSection from "../AbroadSection";
 import ContactSection from "../ContactSection";
 import FooterSection from "../FooterSection";
 
@@ -24,16 +26,12 @@ export default function GrandDomVisitCard({ messages }: { messages: any }) {
     safeGet(messages, path, fallback);
 
   const brandName     = get(["brand", "name"], "GRAND DOM");
-  const badgeText     = get(["badge", "new"], "Biuro Nieruchomości");
   const heroSubheading = get(["hero", "subheading"], "Twój Dom w Sercu Warszawy");
   const heroText      = get(["hero", "text"]) ?? get(["hero", "description"]) ?? "";
-  const contactEmail   = get(["contact", "email", "value"], "granddom7@op.pl");
-  const contactPhone   = get(["contact", "phone", "value"], "+48 886 193 598");
-  const contactLocation = get(["contact", "location", "value"], "Warszawa, Polska");
   const realEstateServices = get(["realEstateServices"], []);
 
   return (
-    <div style={{ background: "var(--gd-cream)" }}>
+    <div>
       <Header
         brandName={brandName}
         languages={languages}
@@ -44,23 +42,23 @@ export default function GrandDomVisitCard({ messages }: { messages: any }) {
 
       <main>
         <HeroSection
-          badgeText={badgeText}
           heroSubheading={heroSubheading}
           heroText={heroText}
-          contactEmail={contactEmail}
-          contactPhone={contactPhone}
-          contactLocation={contactLocation}
           get={get}
         />
 
-        <StatsBar get={get} />
+        <QuoteSection get={get} />
 
         <RealEstateServicesSection
           get={get}
           realEstateServices={realEstateServices}
         />
 
-        <PropertyShowcaseSection get={get} />
+        <AudienceSection get={get} />
+
+        <ProcessSection get={get} />
+
+        <AbroadSection get={get} />
 
         <ContactSection get={get} />
       </main>

@@ -69,17 +69,17 @@ export default function CookieConsent({ messages }: { messages: Messages }) {
         marginLeft: "auto",
         marginRight: "auto",
         background: "#ffffff",
-        border: "1px solid var(--gd-border)",
-        borderRadius: 14,
+        border: "1px solid var(--gd-line)",
+        borderRadius: 10,
         padding: "20px 22px",
         boxShadow: "0 24px 60px -20px rgba(20,40,30,0.28)",
-        fontFamily: "var(--font-dm-sans), sans-serif",
+        fontFamily: "var(--gd-sans)",
       }}
     >
       <p
         style={{
-          fontSize: 13,
-          lineHeight: 1.65,
+          fontSize: 14,
+          lineHeight: 1.6,
           color: "var(--gd-ink)",
           marginBottom: 12,
         }}
@@ -90,8 +90,8 @@ export default function CookieConsent({ messages }: { messages: Messages }) {
         href={`/${locale}/privacy`}
         style={{
           display: "inline-block",
-          fontSize: 12,
-          color: "var(--gd-teal)",
+          fontSize: 13,
+          color: "var(--gd-ink)",
           textDecoration: "underline",
           marginBottom: 16,
         }}
@@ -101,39 +101,15 @@ export default function CookieConsent({ messages }: { messages: Messages }) {
       <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
         <button
           onClick={() => setChoice("accepted")}
-          style={{
-            flex: "1 1 auto",
-            background: "var(--gd-teal)",
-            color: "#fff",
-            border: "none",
-            cursor: "pointer",
-            fontFamily: "var(--font-dm-sans), sans-serif",
-            fontSize: 12,
-            fontWeight: 500,
-            letterSpacing: "0.06em",
-            textTransform: "uppercase",
-            padding: "12px 18px",
-            borderRadius: 999,
-          }}
+          className="gd-btn gd-btn--sm gd-btn--ink"
+          style={{ flex: "1 1 auto" }}
         >
           {accept}
         </button>
         <button
           onClick={() => setChoice("declined")}
-          style={{
-            flex: "1 1 auto",
-            background: "transparent",
-            color: "var(--gd-ink)",
-            border: "1px solid var(--gd-border)",
-            cursor: "pointer",
-            fontFamily: "var(--font-dm-sans), sans-serif",
-            fontSize: 12,
-            fontWeight: 500,
-            letterSpacing: "0.06em",
-            textTransform: "uppercase",
-            padding: "12px 18px",
-            borderRadius: 999,
-          }}
+          className="gd-btn gd-btn--sm gd-btn--outline"
+          style={{ flex: "1 1 auto" }}
         >
           {decline}
         </button>

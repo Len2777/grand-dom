@@ -1,23 +1,36 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, DM_Sans } from "next/font/google";
+import { Cormorant_Garamond, Instrument_Serif, Manrope } from "next/font/google";
 import { headers } from "next/headers";
 import "./globals.css";
 import CookieConsent from "@/components/CookieConsent";
 import GoogleTagManager from "@/components/GoogleTagManager";
 import { isValidLocale, getMessages, type SupportedLocale } from "@/lib/translations";
 
-const cormorant = Cormorant_Garamond({
+const instrumentSerif = Instrument_Serif({
   subsets: ["latin", "latin-ext"],
-  weight: ["300", "400", "500", "600"],
+  weight: "400",
   style: ["normal", "italic"],
-  variable: "--font-cormorant",
+  variable: "--font-display",
   display: "swap",
+  // the metric-matched local fallback has Cyrillic glyphs and would shadow Cormorant
+  adjustFontFallback: false,
 });
 
-const dmSans = DM_Sans({
-  subsets: ["latin", "latin-ext"],
-  weight: ["300", "400", "500"],
-  variable: "--font-dm-sans",
+// Instrument Serif has no Cyrillic — used for Ukrainian headings only
+const cormorantCyr = Cormorant_Garamond({
+  subsets: ["cyrillic"],
+  weight: "600",
+  style: ["normal", "italic"],
+  variable: "--font-display-cyr",
+  display: "swap",
+  preload: false,
+  adjustFontFallback: false,
+});
+
+const manrope = Manrope({
+  subsets: ["latin", "latin-ext", "cyrillic"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-body",
   display: "swap",
 });
 
@@ -73,7 +86,7 @@ export default async function RootLayout({
   return (
     <html
       lang={htmlLang}
-      className={`${cormorant.variable} ${dmSans.variable}`}
+      className={`${instrumentSerif.variable} ${cormorantCyr.variable} ${manrope.variable}`}
     >
       <body>
         <GoogleTagManager />

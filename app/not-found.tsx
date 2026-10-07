@@ -9,7 +9,7 @@ export default function NotFound() {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        background: "var(--gd-cream)",
+        background: "var(--gd-bg)",
         padding: "40px 20px",
         textAlign: "center",
       }}
@@ -18,7 +18,7 @@ export default function NotFound() {
         className="gd-heading"
         style={{
           fontSize: "clamp(80px, 14vw, 160px)",
-          color: "var(--gd-teal)",
+          color: "var(--gd-accent)",
           fontWeight: 300,
           lineHeight: 1,
           marginBottom: 16,
@@ -39,7 +39,7 @@ export default function NotFound() {
       </h1>
       <p
         style={{
-          fontFamily: "var(--font-dm-sans), sans-serif",
+          fontFamily: "var(--gd-sans)",
           fontSize: 15,
           color: "var(--gd-muted)",
           maxWidth: 460,
@@ -53,19 +53,7 @@ export default function NotFound() {
       </p>
       <Link
         href="/pl"
-        style={{
-          background: "var(--gd-gold)",
-          color: "#fff",
-          textDecoration: "none",
-          fontFamily: "var(--font-dm-sans), sans-serif",
-          fontSize: 12,
-          fontWeight: 500,
-          letterSpacing: "0.08em",
-          textTransform: "uppercase",
-          padding: "14px 28px",
-          borderRadius: 999,
-          boxShadow: "0 4px 14px -4px rgba(180,130,50,0.4)",
-        }}
+        className="gd-btn gd-btn--accent"
       >
         Powrót na stronę główną
       </Link>

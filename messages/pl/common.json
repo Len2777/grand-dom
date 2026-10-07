@@ -6,10 +6,14 @@
   },
   "brand": {
     "name": "GRAND DOM",
-    "tagline": "Doskonałość w Każdej Dziedzinie"
+    "tagline": "Doskonałość w Każdej Dziedzinie",
+    "subtitle": "Biuro nieruchomości · Warszawa"
   },
   "badge": {
     "new": "Biuro nieruchomości · Grand Dom"
+  },
+  "topbar": {
+    "tagline": "Sprzedaż · Kupno · Wynajem · Tajlandia · Cypr Północny"
   },
   "hero": {
     "heading": "GRAND DOM",
@@ -17,7 +21,12 @@
     "line1": "Znajdź",
     "line2": "swoje",
     "line3": "miejsce",
-    "text": "Biuro nieruchomości i profesjonalne pośrednictwo w obrocie nieruchomościami — Warszawa i okolice, Tajlandia i Cypr Północny. Kompleksowe wsparcie na każdym etapie transakcji, a wycenę Twojego mieszkania wykonamy całkowicie bezpłatnie."
+    "text": "Biuro nieruchomości oferuje profesjonalne pośrednictwo w obrocie nieruchomościami — Warszawa i okolice, Tajlandia i Cypr Północny. Kompleksowe wsparcie na każdym etapie transakcji.",
+    "eyebrow": "Warszawa · Tajlandia · Cypr Północny"
+  },
+  "quote": {
+    "text": "„Nieruchomość to nie tylko metry. To *miejsce*, w którym zaczyna się nowy rozdział — dlatego prowadzimy każdą transakcję tak, jakby była naszą własną.”",
+    "author": "Zespół GRAND DOM"
   },
   "specialization": {
     "title": "Nasza Specjalizacja",
@@ -34,7 +43,7 @@
     "cardLabel": "Bezpośredni kontakt",
     "heading": "Zacznijmy",
     "heading2": "rozmowę",
-    "intro": "Napisz, zadzwoń albo wpadnij na kawę. Odpowiadamy w ciągu doby — bez automatycznych wiadomości i bez naciągania.",
+    "intro": "Napisz lub zadzwoń. Odpowiadamy w ciągu doby",
     "email": {
       "label": "Email",
       "value": "granddom7@op.pl",
@@ -67,14 +76,17 @@
     "properties": "Nieruchomości",
     "spain": "Hiszpania",
     "contact": "Kontakt",
-    "ctaLabel": "Napisz do nas"
+    "ctaLabel": "Napisz do nas",
+    "process": "Jak pracujemy",
+    "abroad": "Zagranica"
   },
   "cta": {
     "startProject": "Rozpocznij Współpracę",
     "viewProperties": "Zobacz Dostępne Nieruchomości",
     "learnSpain": "Dowiedz się więcej o Hiszpanii",
     "heroCta1": "Zobacz ofertę",
-    "heroCta2": "Porozmawiajmy"
+    "heroCta2": "Porozmawiajmy",
+    "heroValuation": "Zamów bezpłatną wycenę"
   },
   "realEstateServicesTitle": "Nasze usługi",
   "realEstateServicesSubtitle": "Kompleksowe rozwiązania dopasowane do Twoich potrzeb — w Warszawie i na rynkach zagranicznych.",
@@ -132,6 +144,64 @@
       ]
     }
   ],
+  "sellers": {
+    "label": "Dla sprzedających",
+    "heading": "Sprzedaj ze *spokojem*",
+    "text": "Przygotujemy rzetelną wycenę, zadbamy o prezentację oferty i poprowadzimy negocjacje. Ty decydujesz — my zajmujemy się resztą.",
+    "items": [
+      "Bezpłatna wycena i analiza rynku",
+      "Profesjonalna prezentacja oferty",
+      "Negocjacje i dokumenty do notariusza"
+    ],
+    "cta": "Porozmawiajmy o sprzedaży",
+    "imageAlt": "Jasne, eleganckie wnętrze salonu"
+  },
+  "buyers": {
+    "label": "Dla kupujących",
+    "heading": "Kup *bezpiecznie*",
+    "text": "Wyszukamy nieruchomości dopasowane do Twoich potrzeb, sprawdzimy stan prawny i będziemy przy Tobie aż do podpisania aktu.",
+    "items": [
+      "Indywidualne wyszukiwanie ofert",
+      "Weryfikacja stanu prawnego",
+      "Wsparcie w negocjacjach i przy umowie"
+    ],
+    "cta": "Zacznij poszukiwania"
+  },
+  "process": {
+    "title": "Jak pracujemy",
+    "steps": [
+      {
+        "title": "Rozmowa",
+        "text": "Poznajemy Twoje cele, budżet i termin."
+      },
+      {
+        "title": "Wycena",
+        "text": "Bezpłatna wycena lub wyszukiwanie ofert."
+      },
+      {
+        "title": "Negocjacje",
+        "text": "Prezentacje i najlepsze warunki dla Ciebie."
+      },
+      {
+        "title": "Klucze",
+        "text": "Notariusz i bezpieczne zamknięcie transakcji."
+      }
+    ]
+  },
+  "abroad": {
+    "label": "Poza Polską",
+    "heading": "Inwestuj tam, gdzie *świeci słońce*",
+    "items": [
+      {
+        "name": "Tajlandia",
+        "tagline": "Apartamenty i wille"
+      },
+      {
+        "name": "Cypr Północny",
+        "tagline": "Nad morzem"
+      }
+    ]
+  },
   "propertyShowcase": {
     "label": "Nieruchomości premium",
     "heading": "Eleganckie wnętrza,",
@@ -142,7 +212,7 @@
         "label": "Mieszkań w ofercie"
       },
       {
-        "value": "15",
+        "value": "18",
         "label": "Dzielnic Warszawy"
       }
     ],
@@ -226,7 +296,7 @@
   "stats": {
     "items": [
       {
-        "value": "15",
+        "value": "18",
         "label": "Dzielnic Warszawy"
       },
       {
@@ -295,7 +365,8 @@
     "subtitle": "Im więcej szczegółów napiszesz, tym lepiej dopasujemy ofertę."
   },
   "ui": {
-    "scroll": "Przewiń"
+    "scroll": "Przewiń",
+    "copy": "Kopiuj"
   },
   "footer": {
     "brand": "GRAND DOM",

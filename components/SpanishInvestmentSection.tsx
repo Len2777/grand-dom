@@ -107,7 +107,7 @@ export default function SpanishInvestmentSection({ get }: any) {
 
             <p
               style={{
-                fontFamily: "var(--font-dm-sans), sans-serif",
+                fontFamily: "var(--gd-sans)",
                 fontSize: 15,
                 color: "rgba(255,255,255,0.7)",
                 lineHeight: 1.85,
@@ -120,7 +120,7 @@ export default function SpanishInvestmentSection({ get }: any) {
               )}
             </p>
 
-            <div style={{ marginBottom: 16, fontFamily: "var(--font-dm-sans), sans-serif", fontSize: 13, color: "rgba(255,255,255,0.6)" }}>
+            <div style={{ marginBottom: 16, fontFamily: "var(--gd-sans)", fontSize: 13, color: "rgba(255,255,255,0.6)" }}>
               {get(["spanishInvestment", "guaranteeNote"], "")}
             </div>
 
@@ -133,7 +133,7 @@ export default function SpanishInvestmentSection({ get }: any) {
                 color: "#fff",
                 textDecoration: "none",
                 padding: "14px 34px",
-                fontFamily: "var(--font-dm-sans), sans-serif",
+                fontFamily: "var(--gd-sans)",
                 fontSize: 13,
                 fontWeight: 500,
                 letterSpacing: "0.04em",
@@ -203,7 +203,7 @@ export default function SpanishInvestmentSection({ get }: any) {
                       style={{
                         width: 4,
                         height: 4,
-                        background: "var(--gd-gold)",
+                        background: "var(--gd-accent)",
                         borderRadius: "50%",
                         marginTop: 7,
                         flexShrink: 0,
@@ -211,7 +211,7 @@ export default function SpanishInvestmentSection({ get }: any) {
                     />
                     <span
                       style={{
-                        fontFamily: "var(--font-dm-sans), sans-serif",
+                        fontFamily: "var(--gd-sans)",
                         fontSize: 14,
                         color: "rgba(255,255,255,0.75)",
                         lineHeight: 1.6,

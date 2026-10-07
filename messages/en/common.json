@@ -6,10 +6,14 @@
   },
   "brand": {
     "name": "GRAND DOM",
-    "tagline": "Excellence in Every Field"
+    "tagline": "Excellence in Every Field",
+    "subtitle": "Real estate agency · Warsaw"
   },
   "badge": {
     "new": "Real Estate Agency · Grand Dom"
+  },
+  "topbar": {
+    "tagline": "Sales · Purchase · Rentals · Thailand · Northern Cyprus"
   },
   "hero": {
     "heading": "GRAND DOM",
@@ -17,7 +21,12 @@
     "line1": "Find",
     "line2": "your",
     "line3": "place",
-    "text": "A real estate agency offering professional property brokerage — Warsaw and surroundings, Thailand and Northern Cyprus. Comprehensive support at every stage of the transaction, and we'll valuate your apartment completely free of charge."
+    "text": "A real estate agency offering professional property brokerage — Warsaw and surroundings, Thailand and Northern Cyprus. Comprehensive support at every stage of the transaction.",
+    "eyebrow": "Warsaw · Thailand · Northern Cyprus"
+  },
+  "quote": {
+    "text": "“A property is more than square metres. It is a *place* where a new chapter begins — which is why we handle every transaction as if it were our own.”",
+    "author": "The GRAND DOM team"
   },
   "specialization": {
     "title": "Our Specialization",
@@ -59,14 +68,17 @@
     "properties": "Properties",
     "spain": "Spain",
     "contact": "Contact",
-    "ctaLabel": "Write to us"
+    "ctaLabel": "Write to us",
+    "process": "How we work",
+    "abroad": "Abroad"
   },
   "cta": {
     "startProject": "Start a Project",
     "viewProperties": "View Available Properties",
     "learnSpain": "Learn more about Spain",
     "heroCta1": "View properties",
-    "heroCta2": "Get in touch"
+    "heroCta2": "Get in touch",
+    "heroValuation": "Get a free valuation"
   },
   "realEstateServicesTitle": "Our Services",
   "realEstateServicesSubtitle": "Comprehensive solutions tailored to your needs — in Warsaw and on international markets.",
@@ -124,6 +136,64 @@
       ]
     }
   ],
+  "sellers": {
+    "label": "For sellers",
+    "heading": "Sell with *peace of mind*",
+    "text": "We prepare a reliable valuation, take care of how your listing is presented and lead the negotiations. You decide — we handle the rest.",
+    "items": [
+      "Free valuation and market analysis",
+      "Professional presentation of your listing",
+      "Negotiations and documents for the notary"
+    ],
+    "cta": "Let's talk about selling",
+    "imageAlt": "Bright, elegant living room interior"
+  },
+  "buyers": {
+    "label": "For buyers",
+    "heading": "Buy *safely*",
+    "text": "We find properties that match your needs, verify their legal status and stay by your side until the deed is signed.",
+    "items": [
+      "Individual property search",
+      "Legal status verification",
+      "Support in negotiations and at contract signing"
+    ],
+    "cta": "Start your search"
+  },
+  "process": {
+    "title": "How we work",
+    "steps": [
+      {
+        "title": "Conversation",
+        "text": "We learn about your goals, budget and timeline."
+      },
+      {
+        "title": "Valuation",
+        "text": "A free valuation or a search for listings."
+      },
+      {
+        "title": "Negotiations",
+        "text": "Viewings and the best terms for you."
+      },
+      {
+        "title": "Keys",
+        "text": "Notary and a safe closing of the transaction."
+      }
+    ]
+  },
+  "abroad": {
+    "label": "Beyond Poland",
+    "heading": "Invest where *the sun shines*",
+    "items": [
+      {
+        "name": "Thailand",
+        "tagline": "Apartments and villas"
+      },
+      {
+        "name": "Northern Cyprus",
+        "tagline": "By the sea"
+      }
+    ]
+  },
   "propertyShowcase": {
     "label": "Premium properties",
     "heading": "Elegant interiors,",
@@ -287,7 +357,8 @@
     "subtitle": "The more details you provide, the better we can tailor our offer."
   },
   "ui": {
-    "scroll": "Scroll"
+    "scroll": "Scroll",
+    "copy": "Copy"
   },
   "footer": {
     "brand": "GRAND DOM",

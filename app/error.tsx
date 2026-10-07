@@ -21,7 +21,7 @@ export default function GlobalError({
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        background: "var(--gd-cream)",
+        background: "var(--gd-bg)",
         padding: "40px 20px",
         textAlign: "center",
       }}
@@ -39,7 +39,7 @@ export default function GlobalError({
       </h1>
       <p
         style={{
-          fontFamily: "var(--font-dm-sans), sans-serif",
+          fontFamily: "var(--gd-sans)",
           fontSize: 15,
           color: "var(--gd-muted)",
           maxWidth: 460,
@@ -53,20 +53,7 @@ export default function GlobalError({
       </p>
       <button
         onClick={() => reset()}
-        style={{
-          background: "var(--gd-teal)",
-          color: "#fff",
-          border: "none",
-          cursor: "pointer",
-          fontFamily: "var(--font-dm-sans), sans-serif",
-          fontSize: 12,
-          fontWeight: 500,
-          letterSpacing: "0.08em",
-          textTransform: "uppercase",
-          padding: "14px 28px",
-          borderRadius: 999,
-          boxShadow: "0 4px 14px -4px rgba(20,60,40,0.4)",
-        }}
+        className="gd-btn gd-btn--ink"
       >
         Spróbuj ponownie
       </button>

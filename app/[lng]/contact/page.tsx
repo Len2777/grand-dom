@@ -38,5 +38,5 @@ export default async function Contact({
     getMessages(lng, "common"),
   ]);
 
-  return <ContactPage messages={contactMsgs} />;
+  return <ContactPage messages={contactMsgs} commonMessages={commonMsgs} />;
 }

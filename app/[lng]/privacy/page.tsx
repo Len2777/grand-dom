@@ -38,9 +38,9 @@ export default async function PrivacyPage({
   return (
     <main
       style={{
-        background: "var(--gd-cream)",
+        background: "var(--gd-bg)",
         minHeight: "100vh",
-        padding: "100px clamp(20px, 5vw, 48px) 80px",
+        padding: "80px clamp(20px, 5vw, 40px) 96px",
       }}
     >
       <div style={{ maxWidth: 760, margin: "0 auto" }}>
@@ -48,11 +48,12 @@ export default async function PrivacyPage({
           href={`/${lng}`}
           style={{
             display: "inline-block",
-            fontFamily: "var(--font-dm-sans), sans-serif",
-            fontSize: 12,
-            letterSpacing: "0.08em",
+            fontFamily: "var(--gd-sans)",
+            fontSize: 13,
+            fontWeight: 600,
+            letterSpacing: "0.18em",
             textTransform: "uppercase",
-            color: "var(--gd-gold)",
+            color: "var(--gd-muted)",
             textDecoration: "none",
             marginBottom: 32,
           }}
@@ -76,7 +77,7 @@ export default async function PrivacyPage({
         {msgs.lastUpdated && (
           <p
             style={{
-              fontFamily: "var(--font-dm-sans), sans-serif",
+              fontFamily: "var(--gd-sans)",
               fontSize: 13,
               color: "var(--gd-muted)",
               marginBottom: 32,
@@ -88,7 +89,7 @@ export default async function PrivacyPage({
 
         <p
           style={{
-            fontFamily: "var(--font-dm-sans), sans-serif",
+            fontFamily: "var(--gd-sans)",
             fontSize: 16,
             color: "var(--gd-ink)",
             lineHeight: 1.8,
@@ -113,9 +114,9 @@ export default async function PrivacyPage({
             </h2>
             <p
               style={{
-                fontFamily: "var(--font-dm-sans), sans-serif",
+                fontFamily: "var(--gd-sans)",
                 fontSize: 15,
-                color: "var(--gd-muted)",
+                color: "var(--gd-ink-2)",
                 lineHeight: 1.85,
               }}
             >

@@ -42,7 +42,7 @@ export default function FeaturedOfferSection({ get }: any) {
       id="oferta"
       className="gd-section"
       style={{
-        background: "var(--gd-cream)",
+        background: "var(--gd-bg)",
         padding: "96px clamp(20px, 5vw, 48px)",
         overflow: "hidden",
       }}
@@ -63,7 +63,7 @@ export default function FeaturedOfferSection({ get }: any) {
             }}
           >
             {heading}{" "}
-            <em style={{ fontStyle: "italic", color: "var(--gd-teal)" }}>
+            <em style={{ fontStyle: "italic", color: "var(--gd-forest)" }}>
               {subheading}
             </em>
           </h2>
@@ -85,7 +85,7 @@ export default function FeaturedOfferSection({ get }: any) {
             textDecoration: "none",
             color: "inherit",
             boxShadow: "0 24px 60px -28px rgba(0,0,0,0.22)",
-            border: "1px solid var(--gd-border)",
+            border: "1px solid var(--gd-line)",
           }}
         >
           {/* Zdjęcie */}
@@ -106,11 +106,11 @@ export default function FeaturedOfferSection({ get }: any) {
                 position: "absolute",
                 top: 20,
                 left: 20,
-                background: "var(--gd-gold)",
+                background: "var(--gd-accent)",
                 color: "#fff",
                 padding: "8px 18px",
                 borderRadius: 999,
-                fontFamily: "var(--font-dm-sans), sans-serif",
+                fontFamily: "var(--gd-sans)",
                 fontSize: 14,
                 fontWeight: 600,
                 letterSpacing: "0.02em",
@@ -139,7 +139,7 @@ export default function FeaturedOfferSection({ get }: any) {
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
                 <path
                   d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"
-                  stroke="var(--gd-teal)"
+                  stroke="var(--gd-forest)"
                   strokeWidth="1.8"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -160,7 +160,7 @@ export default function FeaturedOfferSection({ get }: any) {
           >
             <div
               style={{
-                fontFamily: "var(--font-dm-sans), sans-serif",
+                fontFamily: "var(--gd-sans)",
                 fontSize: 11,
                 letterSpacing: "0.14em",
                 textTransform: "uppercase",
@@ -175,7 +175,7 @@ export default function FeaturedOfferSection({ get }: any) {
               style={{
                 fontSize: 40,
                 fontWeight: 300,
-                color: "var(--gd-teal)",
+                color: "var(--gd-forest)",
                 lineHeight: 1,
                 marginBottom: 24,
               }}
@@ -187,7 +187,7 @@ export default function FeaturedOfferSection({ get }: any) {
               style={{
                 width: 48,
                 height: 2,
-                background: "var(--gd-gold)",
+                background: "var(--gd-accent)",
                 marginBottom: 24,
               }}
             />
@@ -207,11 +207,11 @@ export default function FeaturedOfferSection({ get }: any) {
                 <li
                   key={i}
                   style={{
-                    fontFamily: "var(--font-dm-sans), sans-serif",
+                    fontFamily: "var(--gd-sans)",
                     fontSize: 13,
                     color: "var(--gd-ink)",
-                    background: "var(--gd-cream)",
-                    border: "1px solid var(--gd-border)",
+                    background: "var(--gd-bg)",
+                    border: "1px solid var(--gd-line)",
                     padding: "7px 14px",
                     borderRadius: 999,
                   }}
@@ -223,7 +223,7 @@ export default function FeaturedOfferSection({ get }: any) {
 
             <p
               style={{
-                fontFamily: "var(--font-dm-sans), sans-serif",
+                fontFamily: "var(--gd-sans)",
                 fontSize: 15,
                 color: "var(--gd-muted)",
                 lineHeight: 1.8,
@@ -240,9 +240,9 @@ export default function FeaturedOfferSection({ get }: any) {
                 alignItems: "center",
                 justifyContent: "center",
                 gap: 10,
-                background: "var(--gd-teal)",
+                background: "var(--gd-forest)",
                 color: "#fff",
-                fontFamily: "var(--font-dm-sans), sans-serif",
+                fontFamily: "var(--gd-sans)",
                 fontSize: 13,
                 fontWeight: 500,
                 letterSpacing: "0.04em",

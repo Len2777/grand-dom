@@ -6,8 +6,8 @@ export default function manifest() {
       "Real estate agency in Warsaw. Sales, purchases and rentals in Warsaw and Masovia. Investments in Thailand and Northern Cyprus.",
     start_url: "/pl",
     display: "standalone",
-    background_color: "#ffffff",
-    theme_color: "#10b981",
+    background_color: "#f4f2ee",
+    theme_color: "#1d2a25",
     icons: [
       {
         src: "/logo.png",
