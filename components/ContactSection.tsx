@@ -5,6 +5,11 @@ import { useCopyToClipboard } from "@/hooks/useCopyToClipboard";
 
 type Option = { value: string; label: string };
 
+const MAP_LINK = "https://maps.app.goo.gl/d6perTRDu1rCtysLA?g_st=it";
+// Warsaw centre; the map is only a preview — a click opens MAP_LINK
+const MAP_EMBED_SRC =
+  "https://maps.google.com/maps?q=52.2297,21.0122&hl=pl&z=12&output=embed";
+
 export default function ContactSection({
   get,
   as: Heading = "h2",
@@ -145,6 +150,33 @@ export default function ContactSection({
               {location}
               {website && ` · ${website}`}
             </span>
+          </div>
+
+          <div className="gd-map">
+            <div className="gd-map-frame">
+              <iframe
+                title={get(["contact", "map", "title"], "Nasza lokalizacja na mapie")}
+                src={MAP_EMBED_SRC}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                tabIndex={-1}
+              />
+              <a
+                className="gd-map-overlay"
+                href={MAP_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={get(["contact", "map", "open"], "Otwórz w Mapach Google")}
+              />
+            </div>
+            <a
+              className="gd-map-link"
+              href={MAP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {get(["contact", "map", "open"], "Otwórz w Mapach Google")} ↗
+            </a>
           </div>
 
           {/* live region for screen readers */}

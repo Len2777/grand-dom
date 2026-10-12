@@ -58,6 +58,10 @@
       "label": "Локація",
       "value": "Варшава, Польща"
     },
+    "map": {
+      "title": "Наша локація на мапі",
+      "open": "Відкрити в Google Maps"
+    },
     "website": {
       "label": "Вебсайт",
       "value": "www.granddom.com"

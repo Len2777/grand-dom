@@ -806,6 +806,37 @@
   color: var(--gd-on-forest);
   text-decoration: none;
 }
+.gd-map {
+  width: 100%;
+  margin-top: 24px;
+}
+.gd-map-frame {
+  position: relative;
+}
+.gd-map-overlay {
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.gd-map iframe {
+  display: block;
+  width: 100%;
+  height: 280px;
+  border: 0;
+  border-radius: 12px;
+}
+.gd-map-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--gd-on-forest-muted);
+  font-size: 15px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.gd-map-link:hover {
+  color: var(--gd-accent-soft);
+}
 .gd-contact-line {
   display: flex;
   align-items: center;

@@ -58,6 +58,10 @@
       "label": "Lokalizacja",
       "value": "Warszawa, Polska"
     },
+    "map": {
+      "title": "Nasza lokalizacja na mapie",
+      "open": "Otwórz w Mapach Google"
+    },
     "website": {
       "label": "Strona internetowa",
       "value": "www.granddom.com"

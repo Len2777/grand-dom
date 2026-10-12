@@ -58,6 +58,10 @@
       "label": "Location",
       "value": "Warsaw, Poland"
     },
+    "map": {
+      "title": "Our location on the map",
+      "open": "Open in Google Maps"
+    },
     "website": {
       "label": "Website",
       "value": "www.granddom.com"
