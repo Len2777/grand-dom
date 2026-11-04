@@ -5,6 +5,7 @@ import Script from "next/script";
 
 const GTM_ID = "GTM-5WKRX4VF";
 const GADS_ID = "AW-18383544373";
+const GA4_ID = "G-E0Q72LTRGL";
 const STORAGE_KEY = "gd_cookie_consent_v1";
 const CONSENT_EVENT = "gd_cookie_consent_change";
 
@@ -41,7 +42,8 @@ export default function GoogleTagManager() {
       {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', '${GADS_ID}');`}
+gtag('config', '${GADS_ID}');
+gtag('config', '${GA4_ID}');`}
     </Script>
     <Script id="gtm-loader" strategy="afterInteractive">
       {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
