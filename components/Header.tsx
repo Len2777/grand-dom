@@ -49,7 +49,7 @@ export default function Header({
       <div className="gd-topbar">
         <div className="gd-wrap gd-topbar-inner">
           <span className="gd-topbar-tag">
-            {get(["topbar", "tagline"], "Sprzedaż · Kupno · Wynajem · Tajlandia · Cypr Północny")}
+            {get(["topbar", "tagline"], "Sprzedaż · Kupno · Wynajem · Warszawa i okolice")}
           </span>
           <span>
             <a href={`tel:${phone.replace(/[\s()]/g, "")}`}>{phone}</a>
