@@ -1128,3 +1128,61 @@
     padding: 28px 20px;
   }
 }
+
+/* ── Areas (owners by location) ─────────────────────────────── */
+.gd-areas {
+  padding-top: 96px;
+  padding-bottom: 32px;
+}
+.gd-areas .gd-h2 {
+  margin: 12px 0 40px;
+}
+.gd-areas-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.gd-area-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 36px;
+  background: var(--gd-white);
+  border: 1px solid var(--gd-line);
+  border-radius: 10px;
+}
+.gd-area-card h3 {
+  font-family: var(--gd-serif);
+  font-size: 32px;
+  line-height: 1.05;
+}
+.gd-area-places {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gd-accent);
+}
+.gd-area-card p {
+  font-size: 16px;
+  color: var(--gd-ink-2);
+}
+.gd-area-card .gd-textlink {
+  margin-top: auto;
+  padding-top: 8px;
+}
+.gd-footer-area {
+  max-width: 760px;
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+@media (max-width: 800px) {
+  .gd-areas-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .gd-area-card {
+    padding: 28px;
+  }
+}

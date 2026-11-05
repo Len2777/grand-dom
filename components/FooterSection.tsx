@@ -37,6 +37,12 @@ export default function FooterSection({
           )}
         </p>
 
+        {get(["footer", "area"], "") && (
+          <p className="gd-footer-area">
+            <strong>{get(["footer", "areaLabel"], "")}</strong> {get(["footer", "area"], "")}
+          </p>
+        )}
+
         <nav className="gd-footer-nav" aria-label={get(["footer", "brand"], brandName)}>
           {navLinks.map(({ label, href }) => (
             <a key={href} href={href}>

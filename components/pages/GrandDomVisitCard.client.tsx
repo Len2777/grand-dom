@@ -7,6 +7,7 @@ import Header from "../Header";
 import HeroSection from "../HeroSection";
 import QuoteSection from "../QuoteSection";
 import RealEstateServicesSection from "../RealEstateServicesSection";
+import AreasSection from "../AreasSection";
 import AudienceSection from "../AudienceSection";
 import ProcessSection from "../ProcessSection";
 import AbroadSection from "../AbroadSection";
@@ -53,6 +54,8 @@ export default function GrandDomVisitCard({ messages }: { messages: any }) {
           get={get}
           realEstateServices={realEstateServices}
         />
+
+        <AreasSection get={get} />
 
         <AudienceSection get={get} />
 

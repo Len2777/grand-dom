@@ -18,11 +18,11 @@
   "hero": {
     "heading": "GRAND DOM",
     "subheading": "Znajdź swoje miejsce",
-    "line1": "Znajdź",
-    "line2": "swoje",
-    "line3": "miejsce",
-    "text": "Biuro nieruchomości oferuje profesjonalne pośrednictwo w obrocie nieruchomościami — Warszawa i okolice, Tajlandia i Cypr Północny. Kompleksowe wsparcie na każdym etapie transakcji.",
-    "eyebrow": "Warszawa · Tajlandia · Cypr Północny"
+    "line1": "Skuteczna Sprzedaż",
+    "line2": "Nieruchomości",
+    "line3": "z Osobistym Doradcą",
+    "text": "Sprzedajesz mieszkanie lub dom w Warszawie i okolicach? Gwarantujemy bezpośrednie prowadzenie transakcji przez doświadczonego eksperta, rynkową wycenę, marketing premium oraz pełne bezpieczeństwo prawne. Prowizja wyłącznie za sfinalizowaną sprzedaż — zero opłat wstępnych.",
+    "eyebrow": "WARSZAWA · MARKI · ŻYRARDÓW · ŁOMIANKI · KONSTANCIN-JEZIORNA"
   },
   "quote": {
     "text": "„Nieruchomość to nie tylko metry. To *miejsce*, w którym zaczyna się nowy rozdział — dlatego prowadzimy każdą transakcję tak, jakby była naszą własną.”",
@@ -88,7 +88,7 @@
     "startProject": "Rozpocznij Współpracę",
     "viewProperties": "Zobacz Dostępne Nieruchomości",
     "learnSpain": "Dowiedz się więcej o Hiszpanii",
-    "heroCta1": "Zobacz ofertę",
+    "heroCta1": "Zobacz oferty i nowe inwestycje",
     "heroCta2": "Porozmawiajmy",
     "heroValuation": "Zamów bezpłatną wycenę"
   },
@@ -148,6 +148,38 @@
       ]
     }
   ],
+  "areas": {
+    "label": "Sprzedaj z nami",
+    "title": "Sprzedaj z nami w Twojej okolicy",
+    "ownersLabel": "Dla Właścicieli",
+    "newLabel": "Nowe Inwestycje",
+    "cities": [
+      {
+        "name": "Żyrardów",
+        "owners": "Planujesz sprzedaż nieruchomości w Żyrardowie? Oferujemy precyzyjną analizę cen transakcyjnych i bezpośredni dostęp do kupujących z Warszawy.",
+        "new": "Mieszkania gotowe oraz w budowie (ceny od 445 000 PLN).",
+        "cta": "Wyceń mieszkanie w Żyrardowie"
+      },
+      {
+        "name": "Marki",
+        "owners": "Dynamiczny rynek blisko stolicy. Pomożemy sprzedać mieszkanie lub segment bez zaniżania ceny.",
+        "new": "Funkcjonalne, duże metraże dla rodzin (ceny od 579 000 PLN).",
+        "cta": "Wyceń nieruchomość w Markach"
+      },
+      {
+        "name": "Segment Premium i Podwarszawski",
+        "places": "Łomianki · Konstancin-Jeziorna · Ożarów Mazowiecki",
+        "owners": "Dyskretna, profesjonalna sprzedaż domów, segmentów i apartamentów. Indywidualna strategia marketingowa, selekcja klientów i doradztwo podatkowo-prawne.",
+        "cta": "Indywidualna konsultacja"
+      },
+      {
+        "name": "Warszawa",
+        "places": "Białołęka, Mokotów, Wola i inne dzielnice",
+        "owners": "Kompleksowy obrót na rynku wtórnym oraz sprawdzone pakiety mieszkań od deweloperów.",
+        "cta": "Zamów bezpłatną wycenę"
+      }
+    ]
+  },
   "sellers": {
     "label": "Dla sprzedających",
     "heading": "Sprzedaj ze *spokojem*",
@@ -314,13 +346,12 @@
     ]
   },
   "whyChoose": {
-    "title": "Dlaczego GRAND DOM",
+    "title": "Dlaczego GRAND DOM?",
     "items": [
-      "Bezpłatna wycena mieszkania",
-      "Odpowiadamy w ciągu 24 godzin",
-      "Pierwsza konsultacja bez opłat",
-      "Indywidualne podejście do każdego klienta",
-      "Znamy Warszawę dzielnica po dzielnicy"
+      "Osobisty doradca, nie infolinia: zawsze bezpośredni kontakt z doświadczonym ekspertem, który osobiście prowadzi prezentacje i negocjacje.",
+      "Aktywna baza kupujących: dzięki obsłudze rynku pierwotnego w Markach i Żyrardowie łączymy sprzedających z klientami poszukującymi nieruchomości od ręki.",
+      "Marketing w cenie (Home Staging i Foto): profesjonalna prezentacja wizualna, która wyróżnia ofertę na tle setek innych ogłoszeń.",
+      "100% bezpieczeństwa prawnego: weryfikacja Księgi Wieczystej, pomoc przy optymalizacji podatku dochodowego (19% PIT) i bezpieczny akt notarialny."
     ]
   },
   "form": {
@@ -376,6 +407,8 @@
     "brand": "GRAND DOM",
     "copyright": "© 2026 GRAND DOM. Gotowi, aby zmieniać rzeczywistość.",
     "tagline": "Prowadzimy Cię od pierwszej rozmowy aż do odebrania kluczy. Bez pośpiechu i bez ukrytych prowizji.",
+    "areaLabel": "Obszar działania:",
+    "area": "Warszawa (Białołęka, Bielany, Bemowo, Mokotów, Wola), Marki, Żyrardów, Łomianki, Konstancin-Jeziorna, Legionowo, Ożarów Mazowiecki, Piaseczno oraz Pruszków",
     "legalTitle": "Informacje prawne",
     "privacyLink": "Polityka prywatności"
   },
