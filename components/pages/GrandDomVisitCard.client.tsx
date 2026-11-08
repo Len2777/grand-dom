@@ -10,7 +10,6 @@ import RealEstateServicesSection from "../RealEstateServicesSection";
 import AreasSection from "../AreasSection";
 import AudienceSection from "../AudienceSection";
 import ProcessSection from "../ProcessSection";
-import AbroadSection from "../AbroadSection";
 import ContactSection from "../ContactSection";
 import FooterSection from "../FooterSection";
 
@@ -60,8 +59,6 @@ export default function GrandDomVisitCard({ messages }: { messages: any }) {
         <AudienceSection get={get} />
 
         <ProcessSection get={get} />
-
-        <AbroadSection get={get} />
 
         <ContactSection get={get} />
       </main>

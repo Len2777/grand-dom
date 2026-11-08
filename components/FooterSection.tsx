@@ -21,7 +21,6 @@ export default function FooterSection({
   const navLinks = [
     { label: get(["nav", "services"], "Usługi"), href: `${basePath}#services` },
     { label: get(["nav", "process"], "Jak pracujemy"), href: `${basePath}#process` },
-    { label: get(["nav", "abroad"], "Zagranica"), href: `${basePath}#abroad` },
     { label: get(["nav", "contact"], "Kontakt"), href: `${basePath}#contact` },
   ];
 

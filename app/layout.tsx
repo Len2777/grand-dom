@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     default: "GRAND DOM — Real Estate Agency Warsaw",
   },
   description:
-    "GRAND DOM — real estate agency in Warsaw. We specialize in apartment sales, purchases and long-term rentals in Warsaw and Masovia. Investments in Thailand and Northern Cyprus.",
+    "GRAND DOM — real estate agency in Warsaw. We specialize in apartment sales, purchases and long-term rentals in Warsaw and Masovia.",
   robots: {
     index: true,
     follow: true,
@@ -88,6 +88,18 @@ export default async function RootLayout({
       lang={htmlLang}
       className={`${instrumentSerif.variable} ${cormorantCyr.variable} ${manrope.variable}`}
     >
+      <head>
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-E0Q72LTRGL" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-E0Q72LTRGL');`,
+          }}
+        />
+      </head>
       <body>
         <GoogleTagManager />
         {children}

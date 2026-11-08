@@ -34,7 +34,6 @@ export default function Header({
   const navItems = [
     { label: get(["nav", "services"], "Usługi"), href: `${basePath}#services` },
     { label: get(["nav", "process"], "Jak pracujemy"), href: `${basePath}#process` },
-    { label: get(["nav", "abroad"], "Zagranica"), href: `${basePath}#abroad` },
   ];
   const contactHref = `${basePath}#contact`;
   const ctaLabel = get(["nav", "ctaLabel"], get(["contact", "getInTouch"], "Napisz do nas"));
