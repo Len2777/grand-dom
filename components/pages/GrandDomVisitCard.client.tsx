@@ -26,8 +26,6 @@ export default function GrandDomVisitCard({ messages }: { messages: any }) {
     safeGet(messages, path, fallback);
 
   const brandName     = get(["brand", "name"], "GRAND DOM");
-  const heroSubheading = get(["hero", "subheading"], "Twój Dom w Sercu Warszawy");
-  const heroText      = get(["hero", "text"]) ?? get(["hero", "description"]) ?? "";
   const realEstateServices = get(["realEstateServices"], []);
 
   return (
@@ -41,11 +39,7 @@ export default function GrandDomVisitCard({ messages }: { messages: any }) {
       />
 
       <main>
-        <HeroSection
-          heroSubheading={heroSubheading}
-          heroText={heroText}
-          get={get}
-        />
+        <HeroSection get={get} />
 
         <QuoteSection get={get} />
 

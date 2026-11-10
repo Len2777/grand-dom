@@ -22,7 +22,10 @@
     "line2": "Nieruchomości",
     "line3": "z Osobistym Doradcą",
     "text": "Sprzedajesz mieszkanie lub dom w Warszawie i okolicach? Gwarantujemy bezpośrednie prowadzenie transakcji przez doświadczonego eksperta, rynkową wycenę, marketing premium oraz pełne bezpieczeństwo prawne. Prowizja wyłącznie za sfinalizowaną sprzedaż — zero opłat wstępnych.",
-    "eyebrow": "WARSZAWA · MARKI · ŻYRARDÓW · ŁOMIANKI · KONSTANCIN-JEZIORNA"
+    "eyebrow": "WARSZAWA · MARKI · ŻYRARDÓW · ŁOMIANKI · KONSTANCIN-JEZIORNA",
+    "sellLine1": "Sprzedajesz mieszkanie lub dom",
+    "sellLine2": "w Warszawie czy okolicach?",
+    "sellText": "Poznaj realną cenę swojej nieruchomości — wycena jest bezpłatna"
   },
   "quote": {
     "text": "„Nieruchomość to nie tylko metry. To *miejsce*, w którym zaczyna się nowy rozdział — dlatego prowadzimy każdą transakcję tak, jakby była naszą własną.”",
@@ -90,7 +93,10 @@
     "learnSpain": "Dowiedz się więcej o Hiszpanii",
     "heroCta1": "Zobacz oferty i nowe inwestycje",
     "heroCta2": "Porozmawiajmy",
-    "heroValuation": "Zamów bezpłatną wycenę"
+    "heroValuation": "Zamów bezpłatną wycenę",
+    "estimate": "Oceń swoją nieruchomość",
+    "talkToAdvisor": "Porozmawiaj z doradcą",
+    "estimateNote": "Bez zobowiązań — doradca skontaktuje się z Tobą"
   },
   "realEstateServicesTitle": "Nasze usługi",
   "realEstateServicesSubtitle": "Kompleksowe rozwiązania dopasowane do Twoich potrzeb — w Warszawie i na rynkach zagranicznych.",

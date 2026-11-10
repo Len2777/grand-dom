@@ -22,7 +22,10 @@
     "line2": "your",
     "line3": "place",
     "text": "A real estate agency offering professional property brokerage — Warsaw and surroundings, Thailand and Northern Cyprus. Comprehensive support at every stage of the transaction.",
-    "eyebrow": "Warsaw · Thailand · Northern Cyprus"
+    "eyebrow": "Warsaw · Thailand · Northern Cyprus",
+    "sellLine1": "Selling a flat or house",
+    "sellLine2": "in Warsaw or nearby?",
+    "sellText": "Find out the real price of your property — the valuation is free"
   },
   "quote": {
     "text": "“A property is more than square metres. It is a *place* where a new chapter begins — which is why we handle every transaction as if it were our own.”",
@@ -82,7 +85,10 @@
     "learnSpain": "Learn more about Spain",
     "heroCta1": "View properties",
     "heroCta2": "Get in touch",
-    "heroValuation": "Get a free valuation"
+    "heroValuation": "Get a free valuation",
+    "estimate": "Value your property",
+    "talkToAdvisor": "Talk to an advisor",
+    "estimateNote": "No obligation — an advisor will contact you"
   },
   "realEstateServicesTitle": "Our Services",
   "realEstateServicesSubtitle": "Comprehensive solutions tailored to your needs — in Warsaw and on international markets.",
