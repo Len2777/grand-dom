@@ -35,6 +35,9 @@ export default function ContactSection({
     type: "",
     timeline: "",
     price: "",
+    address: "",
+    area: "",
+    floor: "",
     message: "",
   });
   const [sent, setSent] = useState(false);
@@ -93,6 +96,8 @@ export default function ContactSection({
   ];
 
   const showPrice = form.service === "buying" || form.service === "renting";
+  // Property details are about the seller's own property — hidden when buying
+  const showProperty = form.service !== "buying" && form.service !== "renting";
   const pricePlaceholder =
     form.service === "buying"
       ? get(["form", "pricePlaceholderBuying"], "np. 100000-250000")
@@ -298,13 +303,58 @@ export default function ContactSection({
               </label>
             )}
 
+            {/* Conditional: property details — for selling / valuation */}
+            {showProperty && (
+              <>
+                <label className="gd-field">
+                  {get(["form", "addressLabel"], "Adres nieruchomości")}
+                  <input
+                    type="text"
+                    autoComplete="street-address"
+                    value={form.address}
+                    onChange={(e) => set("address", e.target.value)}
+                    placeholder={get(["form", "addressPlaceholder"], "Miejscowość/dzielnica, ulica")}
+                  />
+                </label>
+                <div className="gd-g2">
+                  <label className="gd-field">
+                    {get(["form", "areaLabel"], "Metraż (m²)")}
+                    <input
+                      type="number"
+                      inputMode="decimal"
+                      min="0"
+                      step="any"
+                      value={form.area}
+                      onChange={(e) => set("area", e.target.value)}
+                      placeholder={get(["form", "areaPlaceholder"], "np. 54")}
+                    />
+                  </label>
+                  <label className="gd-field">
+                    {get(["form", "floorLabel"], "Piętro")}
+                    <input
+                      type="text"
+                      value={form.floor}
+                      onChange={(e) => set("floor", e.target.value)}
+                      placeholder={get(["form", "floorPlaceholder"], "np. 3/5")}
+                    />
+                  </label>
+                </div>
+              </>
+            )}
+
             <label className="gd-field">
-              {get(["form", "messageLabel"], "Wiadomość *")}
+              {showProperty
+                ? get(["form", "detailsLabel"], "Dodatkowe informacje")
+                : get(["form", "messageLabel"], "Wiadomość *")}
               <textarea
-                required
+                required={!showProperty}
                 value={form.message}
                 onChange={(e) => set("message", e.target.value)}
-                placeholder={get(["form", "messagePlaceholder"], "Napisz parę słów o swoich potrzebach, budżecie, terminach…")}
+                placeholder={
+                  showProperty
+                    ? get(["form", "detailsPlaceholder"], "Stan, balkon, rok budowy…")
+                    : get(["form", "messagePlaceholder"], "Napisz parę słów o swoich potrzebach, budżecie, terminach…")
+                }
               />
             </label>
 
