@@ -60,7 +60,7 @@ export default function ContactSection({
     setLoading(true);
     setFailed(false);
     try {
-      const res = await fetch("https://formspree.io/f/xnnbewjw", {
+      const res = await fetch("https://formspree.io/f/mljbgvek", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),

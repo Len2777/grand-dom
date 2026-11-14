@@ -480,6 +480,9 @@
 .gd-hero .gd-label {
   margin-bottom: 24px;
   letter-spacing: 0.2em;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--gd-ink);
 }
 .gd-h1 {
   max-width: 1000px;

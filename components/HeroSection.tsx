@@ -22,8 +22,7 @@ export default function HeroSection({ get }: any) {
         </div>
 
         <h1 className="gd-h1">
-          {get(["hero", "sellLine1"], "Sprzedajesz mieszkanie lub dom")}{" "}
-          <em className="gd-em">{get(["hero", "sellLine2"], "w Warszawie czy okolicach?")}</em>
+          {get(["hero", "sellLine1"], "Sprzedajesz mieszkanie lub dom")}?
         </h1>
 
         <p className="gd-hero-text">
