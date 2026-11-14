@@ -804,6 +804,26 @@
 .gd-map-link:hover {
   color: var(--gd-accent-soft);
 }
+.gd-qr {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+  color: var(--gd-on-forest-muted);
+  font-size: 15px;
+  text-decoration: none;
+}
+.gd-qr:hover {
+  color: var(--gd-accent-soft);
+}
+.gd-qr img {
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+  padding: 6px;
+  background: #fff;
+  border-radius: 12px;
+}
 .gd-contact-line {
   display: flex;
   align-items: center;

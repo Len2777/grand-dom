@@ -5,6 +5,7 @@ import { useCopyToClipboard } from "@/hooks/useCopyToClipboard";
 
 type Option = { value: string; label: string };
 
+const WHATSAPP_LINK = "https://wa.me/message/AAC34RNWLP3NI1";
 const MAP_LINK = "https://maps.app.goo.gl/d6perTRDu1rCtysLA?g_st=it";
 // Warsaw centre; the map is only a preview — a click opens MAP_LINK
 const MAP_EMBED_SRC =
@@ -183,6 +184,22 @@ export default function ContactSection({
               {get(["contact", "map", "open"], "Otwórz w Mapach Google")} ↗
             </a>
           </div>
+
+          <a
+            className="gd-qr"
+            href={WHATSAPP_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/whatsapp-qr.png"
+              alt={get(["contact", "qr", "alt"], "Kod QR do WhatsApp")}
+              width={120}
+              height={120}
+              loading="lazy"
+            />
+            <span>{get(["contact", "qr", "text"], "Zeskanuj kod lub kliknij, aby napisać do nas na WhatsApp")}</span>
+          </a>
 
           {/* live region for screen readers */}
           <div aria-live="polite" className="sr-only">
